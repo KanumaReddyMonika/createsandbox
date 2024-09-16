@@ -1,0 +1,25 @@
+/* src/styles.css */
+.App {
+  text-align: center;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.meal-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.meal-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Additional responsive styles */
